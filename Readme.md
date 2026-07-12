@@ -1,7 +1,7 @@
 # Ubuntu 26.04 完整部署 K8s v1.35 高可用集群全步骤
  # 所有节点统一执行  
- 系统基础更新、安装依赖包  
- 更新系统源，安装证书、网络、工具依赖  
+ # 系统基础更新、安装依赖包  
+#  更新系统源，安装证书、网络、工具依赖  
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y apt-transport-https ca-certificates curl gpg chrony ipset ipvsadm iputils-ping lsb-release gnupg conntrack nftables wget vim net-tools
 关闭系统防火墙
