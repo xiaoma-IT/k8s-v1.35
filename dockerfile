@@ -1,1 +1,1 @@
-FROM ghcr.io/kube-vip/kube-vip:v1.2.1
+FROM registry.aliyuncs.com/google_containers/etcd:3.6.6-0
