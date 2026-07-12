@@ -1,0 +1,8 @@
+root@master01:~# cat /etc/containerd/certs.d/registry.k8s.io/hosts.toml
+server = "https://registry.k8s.io"
+
+[host."https://k8s.m.daocloud.io"]
+  capabilities = ["pull", "resolve"]
+
+[host."https://registry.lank8s.cn"]
+  capabilities = ["pull", "resolve"]

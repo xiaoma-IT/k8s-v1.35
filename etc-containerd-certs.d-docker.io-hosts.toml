@@ -1,0 +1,7 @@
+server = "https://docker.io"
+[host."https://docker.m.daocloud.io"]
+capabilities = ["pull", "resolve"]
+[host."https://registry.cn-hangzhou.aliyuncs.com"]
+capabilities = ["pull", "resolve"]
+[host."https://dockerpull.cn"]
+capabilities = ["pull", "resolve"]
