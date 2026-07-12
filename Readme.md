@@ -5,7 +5,7 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y apt-transport-https ca-certificates curl gpg chrony ipset ipvsadm iputils-ping lsb-release gnupg conntrack nftables wget vim net-tools
 关闭系统防火墙
-# 关闭系统防火墙
+  # 关闭系统防火墙
 sudo systemctl disable --now ufw 2>/dev/null || true;
 
 # 校验防火墙状态（inactive）
